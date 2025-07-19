@@ -1,4 +1,4 @@
-Este projeto foi o trabalho final da disciplina de Introdução a Algoritmos da Ufscar - São Carlos.
+Este projeto é um script Python que foi o trabalho final da disciplina de Introdução a Algoritmos da Ufscar - São Carlos.
 
 O projeto consiste na construção de um programa Python que deverá realizar a locação de carros. 
 Um carro só poderá ser locado se estiver disponível na data de início da locação.
