@@ -1,11 +1,5 @@
-Este projeto é um script Python que foi o trabalho final da disciplina de Introdução a Algoritmos da Ufscar - São Carlos.
+Este projeto foi desenvolvido como trabalho final da disciplina de Introdução a Algoritmos da UFSCar – São Carlos. Trata-se de um script em Python que simula o funcionamento de uma locadora de veículos, com controle de disponibilidade, locações, devoluções e gestão de estoque.
 
-O projeto consiste na construção de um programa Python que deverá realizar a locação de carros. 
-Um carro só poderá ser locado se estiver disponível na data de início da locação.
-Locadoras costumam ter diversos modelos de carros para cada categoria. Pesquise em sites de locadoras para ver o que disponibilizam. 
+O sistema permite que o usuário informe o veículo desejado e o período de locação (data de início e fim). Um carro só pode ser locado se estiver disponível na data inicial. Ao retirar o veículo, o estoque é atualizado automaticamente. Também é possível consultar os estoques a qualquer momento, verificar os carros com devolução prevista para o dia atual e listar veículos em atraso, incluindo o nome e contato da pessoa responsável pela locação.
 
-O usuário deverá informar o carro que deseja locar e o período (inicio e fim).
-O usuário deverá comparecer pessoalmente para fazer a retirada do veículo, momento em que o estoque será reduzido.
-Sempre que necessário, o atendente poderá consultar os estoques para saber se é possível realizar a locação.
-E sempre que o usuário devolver o carro, o estoque deverá ser atualizado. Para simular a mudança de dia, crie uma opção para informar o dia.
-Disponibilize uma opção para listar os carros que devem ser devolvidos no dia e uma outra opção para listar os carros atrasados, bem como o nome da pessoa que locou e seu contato (telefone ou e-mail). 
+A simulação do avanço dos dias é feita manualmente, com uma opção no menu para atualizar a data corrente. O projeto foi construído sem o uso de bibliotecas externas, utilizando principalmente dicionários para organizar os dados dos veículos e das locações.
